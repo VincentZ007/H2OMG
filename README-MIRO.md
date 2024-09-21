@@ -1,0 +1,2 @@
+#Miro board documentation
+A detailed documentation of our project - https://miro.com/welcomeonboard/TXhiUVRvOG5aWGNsQVdiQ0xaUU1qdnZ6TkZQRGZjYmRCdmRiNDNIZmNtdUVTUzZMQWdINzFRa09Jd0dQSWJ1c3wzNDU4NzY0NTk1NzMzNjczOTY3fDI=?share_link_id=707180379651
