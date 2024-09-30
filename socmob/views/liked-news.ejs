@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAL. - Sources</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>REAL. </h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/verified-news">Verified News</a>
+            <a href="/liked-news" class="active">Sources</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Liked News</h2>
+        <div class="news-container">
+            <% likedNews.forEach(item => { %>
+                <div class="news-item">
+                    <h3><%= item.title %></h3>
+                    <p><%= item.description %></p>
+                    <p><strong>Source:</strong> <%= item.source %></p>
+                    <button onclick="toggleLike('<%= item.id %>', '<%= item.title %>', '<%= item.description %>', '<%= item.source %>')" class="like-btn liked">
+                        Unlike
+                    </button>
+                </div>
+            <% }); %>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
